@@ -1,0 +1,232 @@
+/* common css start*/
+*{
+      margin: 0;
+      padding: 0;
+      outline: 0;
+      box-sizing: border-box;
+}
+body{
+      font-family: 'Open Sans', sans-serif;
+}
+.container{
+      width: 1170px ;
+      margin: auto;
+}
+a{
+      text-decoration: none;
+}
+h1 ,h2, h3, h4, h5, h6, a, button, b{
+      font-weight: 800;
+}
+ul{
+      list-style-type: none;
+}
+.row{
+      display: flex;
+      flex-wrap: wrap;
+}
+/* nav start*/
+nav .row{
+      justify-content: space-between;
+      align-items: center;
+}
+nav{
+      background-color: #02918c;
+}
+nav div ul li a{
+      padding: 26px 25.5px;
+      display: inline-block;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #ffffff;
+     
+}
+nav div ul li a:hover{
+      background-color: #cfc91d;
+      color: #0b1016;
+}
+/* nav end*/
+
+/* banner section start */
+#banner{
+      height: 728px;
+      background-image:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.68)), url(./../images/MYFOLIO.jpg);
+      background-position: center;
+      background-size:cover ;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;     
+}
+#banner h3{
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 25px;
+}
+#banner h1{
+      font-size: 68px;
+      letter-spacing: 30px;
+      line-height: 75px;
+      text-transform: uppercase;
+}
+#banner p{
+      font-size: 18px;
+      line-height: 33px;
+}
+#banner img{
+      margin: 52px 0;
+}
+#banner a{
+      font-size: 14px;
+      padding: 17px 42px;
+      text-transform: uppercase;
+      background-color: #cfc91d;
+      letter-spacing: 2px;
+      color:#0b1016;
+      
+}
+#banner a:hover{
+      background-color: #0b1016;
+      color: #02918b;
+}
+/* banner section End  */
+
+/* About section start*/
+#about{
+      padding: 98px 0;
+}
+#about .section_info{
+      padding: 0 137px;
+      text-align: center;
+      margin-bottom: 80px;
+}
+#about .section_info h2{
+      font-size: 46px;
+      text-transform: uppercase;
+      color: #02918b;
+}
+#about .section_info p{
+      font-size: 16px;
+      line-height: 41px;
+      color: #7e8287;
+}
+#about .section_info p b{
+      font-size: 23px;
+}
+#about .about_item_wrapper .about_item{
+      width: 25%;
+      padding: 36px 65px;
+      text-align: center;
+      color: #7e8287;
+      border-right: 1px solid #d9dbdb;
+}
+#about .about_item_wrapper .about_item:last-child{
+      border-right: transparent;
+}
+#about .about_item_wrapper .about_item p{
+      font-size: 11px;
+      line-height: 21px;
+}
+/* About section end*/
+
+/* Main section start*/
+#main{
+      background-image: url(./../images/service.jpg);
+      background-size: cover;
+      background-position: center;
+}
+.inner_container{
+      width: 50%;
+      padding-top: 74px;
+      padding-bottom: 89px;
+}
+#main .section_info h2{
+      font-size: 46px;
+      text-transform: uppercase;
+      color: #02918b;
+}
+#main .inner_container .main_item_wrapper .main_item{
+      width: 50%;
+      padding: 36px 128px 0 0;
+      text-align: left;
+      color: #7e8287;
+}
+#main .section_info p{
+      font-size: 16px;
+      line-height: 41px;
+      color: #7e8287;
+}
+#main .main_item_wrapper .main_item p{
+      font-size: 11px;
+      line-height: 21px;
+}
+
+/* Main section end*/
+/* my work section start*/
+#my_work .container{
+      align-items: center;
+      text-align: center;
+      padding: 110px 0 82px 0;
+}
+#my_work .container h2{
+      font-size: 46px;
+      text-transform: uppercase;
+      color: #02918b;
+}
+#my_work .container p{
+      font-size: 16px;
+      line-height: 41px;
+      color: #7e8287;
+}
+/* my work section end*/
+#images{
+      width: 100%;
+}
+
+#images .row img{
+      width: 25%;
+}
+#footer{
+      background-color: #0b1016;
+      padding-bottom: 67px;
+}
+#footer .form input, #footer .form button{
+      display: block;
+      margin: auto;
+      background:none;
+      color: #ffffff;
+      border: none;
+      border-bottom: 1px solid #7e8287;
+      text-align: center;
+      text-transform: uppercase;
+      padding: 69px 0 18px 0;
+      font-size: 16px;
+}
+#footer .form .sl{
+      width: 637px;
+}
+#footer .form .lgl{
+      width: 917px;
+}
+#footer .form button{
+      font-size: 14px;
+      margin-top: 30px;
+      padding: 17px 67px;
+      text-transform: uppercase;
+      background-color: #cfc91d;
+      letter-spacing: 2px;
+      color:#0b1016;   
+}
+#footer .form button:hover{
+      background-color: #02918c;
+      color: #ffffff;
+      cursor: pointer;
+}
+footer{
+      background-color: #0b0b0b;
+      text-align: center;
+      text-transform: uppercase;
+      padding: 20px 0;
+      color: #ffffff;
+      font-size: small;
+}
